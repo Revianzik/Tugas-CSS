@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Belajar CSS Position</title>
+        <style>
+            div
+            {
+                width: 50px;
+                height: 50px;
+                margin: center;
+            }
+            .desk{
+                width: 200px;
+                height: 300px;
+                border: 10px solid black;
+                position: relative;
+            }
+            .first {
+                width: 100px;
+                height: 100px;
+                background-color: blueviolet;
+            }
+            .sec{
+                width: 100px;
+                height: 100px;
+                background-color: cornflowerblue;
+                position: relative;
+            }
+            .third {
+                width: 100px;
+                height: 100px;
+                background-color: darkgoldenrod;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="desk">
+            <div class="first">First</div>
+            <div class="sec">Second</div>
+            <div class="third">Third</div>
+        </div>
+    </body>
+</html>
